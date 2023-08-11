@@ -1,0 +1,24 @@
+{
+    "name": "EmakefunTextToSpeech",
+    "version": "1.0.0",
+    "description": "Emakefun Text To Speech",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "EmakefunI2cDevice": "github:emakefun-microbit-library/emakefun_i2c_device#v1.0.1"
+    },
+    "files": [
+        "README.md",
+        "main.blocks",
+        "text_to_speech.ts",
+        "_locales/zh/EmakefunTextToSpeech-jsdoc-strings.json",
+        "_locales/zh/EmakefunTextToSpeech-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ]
+}
