@@ -12,3 +12,6 @@ basic.forever(function () {
   basic.pause(2000)
 })
 ```
+
+## Eample Block
+[https://makecode.microbit.org/_YrdhvjFbec3V](https://makecode.microbit.org/_YrdhvjFbec3V)
