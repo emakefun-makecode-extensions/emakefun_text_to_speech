@@ -1,6 +1,6 @@
 {
     "name": "EmakefunTextToSpeech",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Emakefun Text To Speech",
     "license": "MIT",
     "dependencies": {
