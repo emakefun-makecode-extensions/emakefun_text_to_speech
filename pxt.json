@@ -1,6 +1,6 @@
 {
     "name": "EmakefunTextToSpeech",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Text To Speech (TTS) Module",
     "license": "MIT",
     "dependencies": {
