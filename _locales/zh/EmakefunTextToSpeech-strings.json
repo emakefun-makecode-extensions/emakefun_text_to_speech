@@ -1,9 +1,9 @@
 {
-  "emakefun.TextToSpeech.speakFromBase64|block": "$this合成语音, Base64文本=$text ",
-  "emakefun.TextToSpeech.speakFromUtf8|block": "$this合成语音, UTF-8文本=$text",
-  "emakefun.TextToSpeech|block": "语音合成类",
-  "emakefun.createTextToSpeech|block": "创建语音合成模块|I2C地址=$i2c_address",
-  "emakefun|block": "Emakefun",
+  "Emakefun.TextToSpeech.speakFromBase64|block": "$this合成语音, Base64文本=$text ",
+  "Emakefun.TextToSpeech.speakFromUtf8|block": "$this合成语音, UTF-8文本=$text",
+  "Emakefun.TextToSpeech|block": "语音合成类",
+  "Emakefun.createTextToSpeech|block": "创建语音合成模块|I2C地址=$i2c_address",
+  "Emakefun|block": "Emakefun",
   "{id:category}Emakefun": "Emakefun",
   "{id:subcategory}TextToSpeech": "语音合成模块"
 }

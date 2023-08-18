@@ -15,14 +15,14 @@
 - typescript示例
 
 ```typescript
-let tts = emakefun.createTextToSpeech(64)
+let tts = Emakefun.createTextToSpeech(64)
 tts.speakFromBase64('5LiA5LqM5LiJ5Zub5LqU') //使用speakFromBase64来合成播报base64对应的内容
 ```
 
 - python示例
 
 ```python
-tts = emakefun.create_text_to_speech(64)
+tts = Emakefun.create_text_to_speech(64)
 tts.speak_from_base64("5LiA5LqM5LiJ5Zub5LqU") #使用speak_from_base64合成播报base64对应的内容
 ```
 

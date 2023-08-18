@@ -2,20 +2,20 @@
  * TextToSpeech module
  */
 //% block="Emakefun"
-namespace emakefun {
+namespace Emakefun {
 
   /**
    * Class to represent TextToSpeech module
    */
   export class TextToSpeech {
-    private i2c_device: emakefun.I2cDevice = undefined
+    private i2c_device: Emakefun.I2cDevice = undefined
 
     /**
      * Constructor
      * @param i2c_address I2C address of the module, default 0x40
      */
     constructor(i2c_address: number = 0x40) {
-      this.i2c_device = new emakefun.I2cDevice(i2c_address);
+      this.i2c_device = new Emakefun.I2cDevice(i2c_address);
     }
 
     /**

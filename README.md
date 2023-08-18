@@ -21,7 +21,7 @@
 You can copy the code from below or view the project (blocks and JavaScript view) [here]().
 
 ```blocks
-let tts = emakefun.createTextToSpeech(64)
+let tts = Emakefun.createTextToSpeech(64)
 
 basic.forever(function() {
   tts.speakFromUtf8('hello world')
@@ -33,4 +33,4 @@ basic.forever(function() {
 
 ## FAQ
 
-如何合成播报中文，请参考文档: [FAQ.md](FAQ.md)
+如何合成播报中文，请参考文档: [FAQ.md](docs/FAQ.md)
