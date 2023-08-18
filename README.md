@@ -18,7 +18,7 @@
 
 ## Example
 
-You can copy the code from below or view the project (blocks and JavaScript view) [here]().
+You can copy the code from below or view the project (blocks and JavaScript view) [here](https://makecode.microbit.org/_UzAcv10uvc5z).
 
 ```blocks
 let tts = Emakefun.createTextToSpeech(64)
