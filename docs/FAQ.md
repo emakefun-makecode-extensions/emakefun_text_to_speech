@@ -6,7 +6,7 @@
 
 ## 1.查询base64编码
 
-可以使用这个网站[https://c.runoob.com/front-end/693/](https://c.runoob.com/front-end/693/)，在左边输入内容，再点击`编码`，右边会输出对应的base64编码，如下图所示:
+可以使用这个网站[https://tool.browser.qq.com/base64.html](https://tool.browser.qq.com/base64.html)，在上面的输入框输入内容，下面会输出对应的base64编码，如下图所示:
 
 ![how_to_get_base64_encoded_string.png](how_to_get_base64_encoded_string.png)
 
