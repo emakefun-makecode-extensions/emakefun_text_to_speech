@@ -1,10 +1,10 @@
 {
-  "Emakefun": "语音合成模块",
-  "Emakefun.TextToSpeech": "语音合成类",
-  "Emakefun.TextToSpeech.speakFromBase64": "Base64文本转语音",
-  "Emakefun.TextToSpeech.speakFromBase64|param|text": "Base64编码的文本",
-  "Emakefun.TextToSpeech.speakFromUtf8": "UTF-8文本转语音",
-  "Emakefun.TextToSpeech.speakFromUtf8|param|text": "UTF-8编码的文本",
-  "Emakefun.createTextToSpeech": "创建一个语音合成实例, 默认I2C地址为64(0x40)",
-  "Emakefun.createTextToSpeech|param|i2c_address": "语音合成模块的I2C地址, 默认为0x40"
+  "emakefun": "emakefun",
+  "emakefun.TextToSpeech": "表示 TextToSpeech 模块的类",
+  "emakefun.TextToSpeech.speakFromBase64": "播报Base64编码的文本",
+  "emakefun.TextToSpeech.speakFromBase64|param|text": "要播报的文本,以Base64编码格式",
+  "emakefun.TextToSpeech.speakFromUtf8": "播报UTF-8编码的文本",
+  "emakefun.TextToSpeech.speakFromUtf8|param|text": "要播报的文本,以UTF-8编码格式",
+  "emakefun.createTextToSpeech": "创建一个语音合成实例",
+  "emakefun.createTextToSpeech|param|i2c_address": "模块的I2C地址,默认为0x40(十进制为64)"
 }

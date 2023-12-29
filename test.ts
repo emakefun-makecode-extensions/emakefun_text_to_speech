@@ -1,4 +1,4 @@
-let tts = Emakefun.createTextToSpeech(64)
+let tts = emakefun.createTextToSpeech(64)
 
 basic.forever(function() {
   tts.speakFromUtf8('hello world')

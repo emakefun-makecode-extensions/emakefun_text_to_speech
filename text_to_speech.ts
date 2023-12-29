@@ -2,20 +2,18 @@
  * TextToSpeech module
  */
 //% block="Emakefun"
-namespace Emakefun {
+namespace emakefun {
 
   /**
    * Class to represent TextToSpeech module
    */
-  export class TextToSpeech {
-    private i2c_device: Emakefun.I2cDevice = undefined
-
+  export class TextToSpeech extends I2cDevice {
     /**
      * Constructor
      * @param i2c_address I2C address of the module, default 0x40
      */
     constructor(i2c_address: number = 0x40) {
-      this.i2c_device = new Emakefun.I2cDevice(i2c_address);
+      super(i2c_address);
     }
 
     /**
@@ -28,8 +26,7 @@ namespace Emakefun {
     //% inlineInputMode=external
     speakFromUtf8(text: string) {
       let text_bytes = Buffer.fromUTF8(text);
-      let data = Buffer.fromArray([0x00, text_bytes.length + 2, 0x01, 0x04]).concat(text_bytes);
-      this.i2c_device.writeBytes(0xFD, data);
+      this.i2cWrite([0xFD, 0x00, text_bytes.length + 2, 0x01, 0x04, text_bytes]);
     }
 
     /**
@@ -42,8 +39,7 @@ namespace Emakefun {
     //% inlineInputMode=external
     speakFromBase64(text: string) {
       let text_bytes = Buffer.fromBase64(text);
-      let data = Buffer.fromArray([0x00, text_bytes.length + 2, 0x01, 0x04]).concat(text_bytes);
-      this.i2c_device.writeBytes(0xFD, data);
+      this.i2cWrite([0xFD, 0x00, text_bytes.length + 2, 0x01, 0x04, text_bytes]);
     }
   }
 
